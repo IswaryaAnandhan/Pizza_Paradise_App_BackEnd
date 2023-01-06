@@ -1,11 +1,15 @@
 const express = require("express")
-
-const Pizza = require('./models/pizzaModel')
-
+const cors = require("cors")
 const app=express();
-const db = require("./database.js")
-app.use(express.json());
 
+app.use(express.json());
+app.use(
+    cors({
+      origin: "https://pizza-paradise-app.netlify.app",
+    })
+  );
+const Pizza = require('./models/pizzaModel')
+const db = require("./database.js")
 const pizzasRoute = require('./routes/pizzasRoute')
 const userRoute = require('./routes/userRoute')
 const ordersRoute = require('./routes/ordersRoute')
