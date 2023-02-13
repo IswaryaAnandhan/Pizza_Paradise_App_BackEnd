@@ -1,4 +1,4 @@
 # Pizza_Paradise_App_BackEnd
 
-<h1>BackEnd App Link:</h1>
-https://pizza-paradise-app-backend.onrender.com/
+<h2>BackEnd App Link: https://pizza-paradise-app-backend.onrender.com/</h2>
+<h2>FrontEnd Link: https://github.com/IswaryaAnandhan/Pizza_Paradise_App_FrontEnd </h2>
